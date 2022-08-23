@@ -2,16 +2,16 @@ const BLOG = {
   title: 'Lyn',
   author: 'Lyn',
   email: '',
-  link: '',
+  link: 'https://nobelium-lyn26817.vercel.app/',
   description: 'wwwwwww',
-  lang: 'de', // ['de', 'zh-CN', 'en', 'zh-TW']
-  appearance: 'auto', // ['light', 'dark', 'auto'],
-  font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
+  lang: 'zh-CN',
+  appearance: 'light', // ['light', 'dark', 'auto'],
+  font: 'serif', // ['sans-serif', 'serif']
+  lightBackground: '#FDF4DC', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2022, // If leave this empty, current year will be used.
-  postsPerPage: 7,
+  postsPerPage: 10,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
